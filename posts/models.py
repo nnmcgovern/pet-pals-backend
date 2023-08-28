@@ -4,13 +4,13 @@ import datetime
 
 class Post(models.Model):
     name = models.CharField()
-    image = models.CharField()
+    # image = models.CharField()
     age = models.IntegerField()
     animal_type = models.CharField()
     breed = models.CharField()
     description = models.CharField()
     gender = models.CharField()
-    owner_id = models.IntegerField()
+    # owner_id = models.IntegerField()
     created_at = models.DateField(default=datetime.date.today)
 
     def __str__(self):
