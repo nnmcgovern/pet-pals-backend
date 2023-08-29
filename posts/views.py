@@ -1,24 +1,11 @@
 from rest_framework import viewsets, mixins
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from .serializers import PostSerializer, CommentSerializer, LikeSerializer, GetAllDogsSerializer, GetAllCatsSerializer
+from .serializers import PostSerializer, CommentSerializer, LikeSerializer
 from .models import Post, Comment, Like
-
-from rest_framework.decorators import api_view, authentication_classes, permission_classes
-from rest_framework.permissions import IsAuthenticated
-from rest_framework.authentication import TokenAuthentication, SessionAuthentication
 from rest_framework.response import Response
 from rest_framework import status
 from .permissions import CustomPermissions
-
-
-from django.contrib.auth.models import User, Permission
-from django.contrib.contenttypes.models import ContentType
-# Create your views here.
-
-# content_type = ContentType.objects.get(app_label='posts', model='Comment')
-# delete_permission = Permission.objects.get(codename='delete_comment', content_type=content_type)
-# user = User.objects.get(username='')
 
 
 class PostViewSet(viewsets.ModelViewSet):

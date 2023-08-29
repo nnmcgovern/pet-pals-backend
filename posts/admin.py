@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post, Comment, Like  # , CustomUser
+from .models import Post, Comment, Like
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
 
@@ -18,4 +18,3 @@ class PostAdmin(ImportExportModelAdmin):
 
 
 admin.site.register(Post, PostAdmin)
-# admin.site.register(CustomUser)
