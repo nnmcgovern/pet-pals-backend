@@ -41,6 +41,7 @@ wcwidth = "==0.2.6"
 gunicorn = "*"
 dj-database-url = "*"
 django-import-export = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
