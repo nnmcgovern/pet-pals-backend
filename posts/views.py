@@ -1,15 +1,17 @@
 from rest_framework import viewsets, mixins
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from .serializers import PostSerializer, CommentSerializer, LikeSerializer, GetAllDogsSerializer, GetAllCatsSerializer
+from .serializers import PostSerializer, CommentSerializer, LikeSerializer
 from .models import Post, Comment, Like
-
-# Create your views here.
+from rest_framework.response import Response
+from rest_framework import status
+from .permissions import CustomPermissions
 
 
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+
 
 class GetAllDogsCatsViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
     queryset = Post.objects.all()
@@ -31,6 +33,28 @@ class GetAllDogsCatsViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
 class CommentViewSet(viewsets.ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
+    permission_classes = [CustomPermissions]
+
+    def update(self, request, pk=None):
+        try:
+            comment = Comment.objects.get(pk=pk)
+        except Comment.DoesNotExist:
+            return Response({"detail": "Comment not found"}, status=status.HTTP_404_NOT_FOUND)
+
+        serializer = CommentSerializer(comment, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk=None):
+        try:
+            comment = Comment.objects.get(pk=pk)
+        except Comment.DoesNotExist:
+            return Response({"detail": "Comment not found"}, status=status.HTTP_404_NOT_FOUND)
+
+        comment.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 class LikeViewSet(viewsets.ModelViewSet):

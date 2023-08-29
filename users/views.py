@@ -10,6 +10,7 @@ from rest_framework.authtoken.models import Token
 from django.contrib.auth.models import User
 from django.shortcuts import get_object_or_404
 
+
 @api_view(['POST'])
 def login(request):
     user = get_object_or_404(User, username=request.data['username'])
@@ -23,10 +24,10 @@ def login(request):
 
     })
 
+
 @api_view(['POST'])
 def sign_up(request):
     serializer = UserSerializer(data=request.data)
-    print(request.data)
     if serializer.is_valid():
         user = serializer.save()
         user = User.objects.get(username=request.data['username'])
@@ -34,15 +35,17 @@ def sign_up(request):
         user.save()
         token = Token.objects.create(user=user)
         return Response({
-            'token': token.key,"user":serializer.data
+            'token': token.key, "user": serializer.data
         }, status=status.HTTP_201_CREATED)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 @api_view(['GET'])
 def get_all_users(request):
     users = User.objects.all()
     serializer = UserSerializer(users, many=True)
     return Response(serializer.data)
+
 
 @api_view(['GET'])
 @authentication_classes([TokenAuthentication, SessionAuthentication])
@@ -52,4 +55,3 @@ def get_token(request):
     return Response({
         'message': '토큰이 유효합니다.'
     })
-

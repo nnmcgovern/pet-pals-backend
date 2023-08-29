@@ -8,7 +8,6 @@ admin.site.register(Comment)
 admin.site.register(Like)
 
 
-
 class PostResource(resources.ModelResource):
     class Meta:
         model = Post
@@ -16,5 +15,6 @@ class PostResource(resources.ModelResource):
 
 class PostAdmin(ImportExportModelAdmin):
     resource_class = PostResource
+
 
 admin.site.register(Post, PostAdmin)
