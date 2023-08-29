@@ -9,6 +9,7 @@
   },
   {
       "name": "Leo",
+      "image": "https://www.manhattan-puppies.com/wp-content/uploads/2022/08/russian-blue-russian-gosling-768x576.jpg",
       "age": 3,
       "animal_type": "Cat",
       "breed": "Russian Blue",
@@ -25,6 +26,7 @@
   },
   {
       "name": "Mila",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Seal_point_himalayan.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Himalayan",
@@ -41,6 +43,7 @@
   },
   {
       "name": "Chloe",
+      "image": "https://excitedcats.com/wp-content/uploads/2020/10/Birman.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Birman",
@@ -58,6 +61,7 @@
   {
       "name": "Lily",
       "age": 2,
+      "image": "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/04/dan-wayman-Paw3cZH_YCY-unsplash-scaled.jpg",
       "animal_type": "Cat",
       "breed": "Exotic Shorthair",
       "description": "Lily is an Exotic Shorthair cat with a sweet and easygoing personality. Her plush coat and round face make her irresistibly cute and huggable.",
@@ -73,6 +77,7 @@
   },
   {
       "name": "Mochi",
+      "image": "https://excitedcats.com/wp-content/uploads/2020/09/black-japanese-bobtail_NANCY-AYUMI-KUNIHIRO_Shutterstock-1024x683.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Japanese Bobtail",
@@ -89,6 +94,7 @@
   },
   {
       "name": "Felix",
+      "image": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2021/04-08/calico+manx+cat+resting+on+a+wooden+kitchen+floor-min.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Manx",
@@ -105,6 +111,7 @@
   },
   {
       "name": "Ollie",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sphinx2_July_2006.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Sphynx",
@@ -121,6 +128,7 @@
   },
   {
       "name": "Sam",
+      "image": "https://www.rauanimalhospital.com/sites/default/files/styles/large/public/american-shorthair-cat-breed-info.jpg?itok=BY7CDLZp",
       "age": 3,
       "animal_type": "Cat",
       "breed": "American Shorthair",
@@ -137,6 +145,7 @@
   },
   {
       "name": "Toby",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Thor%2C_turkish_van.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Turkish Van",
@@ -153,6 +162,7 @@
   },
   {
       "name": "Charlie",
+      "image": "https://hypoallergenichomes.com/wp-content/uploads/2021/01/scottish-fold-hypoallergenic.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Scottish Fold",
@@ -169,6 +179,7 @@
   },
   {
       "name": "Leo",
+      "image": "https://mainecoon.org/wp-content/uploads/2022/11/27-orange-maine-coon-cats-you-want-to-adopt-featured.jpg",
       "age": 3,
       "animal_type": "Cat",
       "breed": "Maine Coon",
@@ -185,6 +196,7 @@
   },
   {
       "name": "Milo",
+      "image": "https://ponbee.com/wp-content/uploads/facts-about-siamese-cats.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Siamese",
@@ -201,6 +213,7 @@
   },
   {
       "name": "Oliver",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Ragdoll",
@@ -217,6 +230,7 @@
   },
   {
       "name": "Luna",
+      "image": "https://www.rvc.ac.uk/Media/Default/VetCompass/images/persian-cat-full.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Persian",
@@ -233,6 +247,7 @@
   },
   {
       "name": "Zoe",
+      "image": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/10-26/British+Shorthairs+_+Personality+Shedding+and+Care+_+ASPCA+Pet+Health+Insurance+_+gray+shorthair+resting+on+a+brown+leather+couch+-min.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "British Shorthair",
@@ -249,6 +264,7 @@
   },
   {
       "name": "Mia",
+      "image": "https://www.dutch.com/cdn/shop/articles/shutterstock_777351166.jpg?v=1689032905",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Scottish Fold",
@@ -265,6 +281,7 @@
   },
   {
       "name": "Lily",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/Y9KYF9Gi-BVOsvaq1zSkOA/348s.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Siberian",
@@ -281,6 +298,7 @@
   },
   {
       "name": "Lucy",
+      "image": "https://i.pinimg.com/1200x/05/39/f6/0539f678c0ffae8b9d263e9b54055a98.jpg",
       "age": 3,
       "animal_type": "Cat",
       "breed": "Ragdoll",
@@ -297,6 +315,7 @@
   },
   {
       "name": "Chloe",
+      "image": "https://media-be.chewy.com/wp-content/uploads/2015/08/22145406/bengal.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Bengal",
