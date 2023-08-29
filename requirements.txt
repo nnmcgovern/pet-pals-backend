@@ -33,7 +33,6 @@ prompt-toolkit==3.0.39
 psycopg2-binary==2.9.7
 ptyprocess==0.7.0
 pure-eval==0.2.2
-Pygments @ file:///private/tmp/pygments-20230713-37641-1idig35/Pygments-2.15.1
 pytz==2023.3
 PyYAML==6.0.1
 six==1.16.0
