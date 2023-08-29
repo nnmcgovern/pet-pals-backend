@@ -21,9 +21,9 @@ class Post(models.Model):
 
 class Comment(models.Model):
     text = models.CharField()
-    user_id = models.ForeignKey(
+    user = models.ForeignKey(
         User, on_delete=models.CASCADE)
-    post_id = models.ForeignKey(
+    post = models.ForeignKey(
         Post, on_delete=models.CASCADE)
     updated_at = models.DateField(default=datetime.date.today)
     created_at = models.DateField(default=datetime.date.today)
@@ -33,9 +33,9 @@ class Comment(models.Model):
 
 
 class Like(models.Model):
-    user_id = models.ForeignKey(
+    user = models.ForeignKey(
         User, on_delete=models.CASCADE)
-    post_id = models.ForeignKey(
+    post = models.ForeignKey(
         Post, on_delete=models.CASCADE)
 
     def __str__(self):

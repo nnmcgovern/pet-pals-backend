@@ -4,12 +4,20 @@ from rest_framework.response import Response
 from .serializers import PostSerializer, CommentSerializer, LikeSerializer, GetAllDogsSerializer, GetAllCatsSerializer
 from .models import Post, Comment, Like
 
+from rest_framework.decorators import api_view, authentication_classes, permission_classes
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.authentication import TokenAuthentication, SessionAuthentication
+from rest_framework.response import Response
+
+from .permissions import CustomPermissions
+
 # Create your views here.
 
 
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
+
 
 class GetAllDogsCatsViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
     queryset = Post.objects.all()
@@ -31,6 +39,7 @@ class GetAllDogsCatsViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
 class CommentViewSet(viewsets.ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
+    permission_classes = [CustomPermissions]
 
 
 class LikeViewSet(viewsets.ModelViewSet):
