@@ -39,6 +39,12 @@ def sign_up(request):
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET'])
+def get_all_users(request):
+    users = User.objects.all()
+    serializer = UserSerializer(users, many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
 @authentication_classes([TokenAuthentication, SessionAuthentication])
 @permission_classes([IsAuthenticated])
 def get_token(request):
@@ -46,5 +52,4 @@ def get_token(request):
     return Response({
         'message': '토큰이 유효합니다.'
     })
-
 

@@ -1,5 +1,4 @@
 from django.db import models
-# from users.models import User
 from django.contrib.auth.models import User
 import datetime
 
@@ -22,8 +21,10 @@ class Post(models.Model):
 
 class Comment(models.Model):
     text = models.CharField()
-    user_id = models.IntegerField()
-    post_id = models.IntegerField()
+    user_id = models.ForeignKey(
+        User, on_delete=models.CASCADE)
+    post_id = models.ForeignKey(
+        Post, on_delete=models.CASCADE)
     updated_at = models.DateField(default=datetime.date.today)
     created_at = models.DateField(default=datetime.date.today)
 
@@ -32,8 +33,10 @@ class Comment(models.Model):
 
 
 class Like(models.Model):
-    user_id = models.CharField()
-    post_id = models.CharField()
+    user_id = models.ForeignKey(
+        User, on_delete=models.CASCADE)
+    post_id = models.ForeignKey(
+        Post, on_delete=models.CASCADE)
 
     def __str__(self):
         return 'Like'

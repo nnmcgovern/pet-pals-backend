@@ -11,12 +11,12 @@
   },
   {
       "name": "Leo",
-      "image": "https://www.manhattan-puppies.com/wp-content/uploads/2022/08/russian-blue-russian-gosling-768x576.jpg",
       "age": 3,
       "animal_type": "Cat",
       "breed": "Russian Blue",
       "description": "Leo is a sophisticated Russian Blue cat with gorgeous silver-blue fur. He enjoys lounging in sunlit spots and engaging in thoughtful conversations with his human companions.",
       "gender": "Male",
+      "image": "https://www.manhattan-puppies.com/wp-content/uploads/2022/08/russian-blue-russian-gosling-768x576.jpg",
       "owner_id": 2
   },
   {
@@ -31,12 +31,12 @@
   },
   {
       "name": "Mila",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Seal_point_himalayan.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Himalayan",
       "description": "Mila is a stunning Himalayan cat with a luxurious long coat and striking blue eyes. Her calm demeanor and affectionate nature make her the perfect lap cat.",
       "gender": "Female",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Seal_point_himalayan.jpg",
       "owner_id": 2
   },
   {
@@ -51,12 +51,12 @@
   },
   {
       "name": "Chloe",
-      "image": "https://excitedcats.com/wp-content/uploads/2020/10/Birman.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Birman",
       "description": "Chloe is a playful and mischievous Birman kitten with striking blue eyes. She loves chasing feather toys and exploring every nook and cranny of her surroundings.",
       "gender": "Female",
+      "image": "https://excitedcats.com/wp-content/uploads/2020/10/Birman.jpg",
       "owner_id": 2
   },
   {
@@ -72,11 +72,11 @@
   {
       "name": "Lily",
       "age": 2,
-      "image": "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/04/dan-wayman-Paw3cZH_YCY-unsplash-scaled.jpg",
       "animal_type": "Cat",
       "breed": "Exotic Shorthair",
       "description": "Lily is an Exotic Shorthair cat with a sweet and easygoing personality. Her plush coat and round face make her irresistibly cute and huggable.",
       "gender": "Female",
+      "image": "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/04/dan-wayman-Paw3cZH_YCY-unsplash-scaled.jpg",
       "owner_id": 2
   },
   {
@@ -91,12 +91,12 @@
   },
   {
       "name": "Mochi",
-      "image": "https://excitedcats.com/wp-content/uploads/2020/09/black-japanese-bobtail_NANCY-AYUMI-KUNIHIRO_Shutterstock-1024x683.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Japanese Bobtail",
       "description": "Mochi is a curious and energetic Japanese Bobtail kitten. Her short, bobbed tail and playful antics are bound to bring smiles to your face.",
       "gender": "Female",
+      "image": "https://excitedcats.com/wp-content/uploads/2020/09/black-japanese-bobtail_NANCY-AYUMI-KUNIHIRO_Shutterstock-1024x683.jpg",
       "owner_id": 2
   },
   {
@@ -111,12 +111,12 @@
   },
   {
       "name": "Felix",
-      "image": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2021/04-08/calico+manx+cat+resting+on+a+wooden+kitchen+floor-min.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Manx",
       "description": "Felix is a playful and tailless Manx cat with a boundless curiosity. He's always on the lookout for new adventures and interesting things to pounce on.",
       "gender": "Male",
+      "image": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2021/04-08/calico+manx+cat+resting+on+a+wooden+kitchen+floor-min.jpg",
       "owner_id": 2
   },
   {
@@ -131,12 +131,12 @@
   },
   {
       "name": "Ollie",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sphinx2_July_2006.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Sphynx",
       "description": "Ollie is a unique and affectionate Sphynx cat. Despite his lack of fur, he's always warm-hearted and loves cuddling up with his human companions.",
       "gender": "Male",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sphinx2_July_2006.jpg",
       "owner_id": 2
   },
   {
@@ -151,12 +151,12 @@
   },
   {
       "name": "Sam",
-      "image": "https://www.rauanimalhospital.com/sites/default/files/styles/large/public/american-shorthair-cat-breed-info.jpg?itok=BY7CDLZp",
       "age": 3,
       "animal_type": "Cat",
       "breed": "American Shorthair",
       "description": "Sam is a friendly and easygoing American Shorthair cat. He gets along with everyone, both humans and other pets, and enjoys lounging around the house.",
       "gender": "Male",
+      "image": "https://www.rauanimalhospital.com/sites/default/files/styles/large/public/american-shorthair-cat-breed-info.jpg?itok=BY7CDLZp",
       "owner_id": 2
   },
   {
@@ -171,12 +171,12 @@
   },
   {
       "name": "Toby",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Thor%2C_turkish_van.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Turkish Van",
       "description": "Toby is an adventurous and playful Turkish Van kitten. With his love for water and mischievous spirit, he's a constant source of entertainment.",
       "gender": "Male",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Thor%2C_turkish_van.jpg",
       "owner_id": 2
   },
   {
@@ -191,12 +191,12 @@
   },
   {
       "name": "Charlie",
-      "image": "https://hypoallergenichomes.com/wp-content/uploads/2021/01/scottish-fold-hypoallergenic.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Scottish Fold",
       "description": "Charlie is a Scottish Fold cat with a distinctive folded ear that adds to his charm. He's a laid-back and easy-to-please feline companion.",
       "gender": "Male",
+      "image": "https://hypoallergenichomes.com/wp-content/uploads/2021/01/scottish-fold-hypoallergenic.jpg",
       "owner_id": 2
   },
   {
@@ -211,12 +211,12 @@
   },
   {
       "name": "Leo",
-      "image": "https://mainecoon.org/wp-content/uploads/2022/11/27-orange-maine-coon-cats-you-want-to-adopt-featured.jpg",
       "age": 3,
       "animal_type": "Cat",
       "breed": "Maine Coon",
       "description": "Leo is a majestic Maine Coon cat with a thick and luxurious coat. Despite his large size, he's a gentle giant who loves to cuddle.",
       "gender": "Male",
+      "image": "https://mainecoon.org/wp-content/uploads/2022/11/27-orange-maine-coon-cats-you-want-to-adopt-featured.jpg",
       "owner_id": 2
   },
   {
@@ -231,12 +231,12 @@
   },
   {
       "name": "Milo",
-      "image": "https://ponbee.com/wp-content/uploads/facts-about-siamese-cats.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Siamese",
       "description": "Milo is a Siamese cat with striking blue eyes and a vocal personality. He's always ready to engage in conversations and share his thoughts.",
       "gender": "Male",
+      "image": "https://ponbee.com/wp-content/uploads/facts-about-siamese-cats.jpg",
       "owner_id": 2
   },
   {
@@ -251,12 +251,12 @@
   },
   {
       "name": "Oliver",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Ragdoll",
       "description": "Oliver is a Ragdoll cat with soulful blue eyes and a gentle temperament. He enjoys lounging in his human's lap and getting chin scratches.",
       "gender": "Male",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ragdoll_from_Gatil_Ragbelas.jpg",
       "owner_id": 2
   },
   {
@@ -271,12 +271,12 @@
   },
   {
       "name": "Luna",
-      "image": "https://www.rvc.ac.uk/Media/Default/VetCompass/images/persian-cat-full.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Persian",
       "description": "Luna is a regal Persian cat with a luxurious coat that requires extra care. She's a quiet and elegant presence in any room she enters.",
       "gender": "Female",
+      "image": "https://www.rvc.ac.uk/Media/Default/VetCompass/images/persian-cat-full.jpg",
       "owner_id": 2
   },
   {
@@ -291,12 +291,12 @@
   },
   {
       "name": "Zoe",
-      "image": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/10-26/British+Shorthairs+_+Personality+Shedding+and+Care+_+ASPCA+Pet+Health+Insurance+_+gray+shorthair+resting+on+a+brown+leather+couch+-min.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "British Shorthair",
       "description": "Zoe is a British Shorthair cat with a plush and dense coat. Her round face and calm disposition make her a picture-perfect lap companion.",
       "gender": "Female",
+      "image": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2020/10-26/British+Shorthairs+_+Personality+Shedding+and+Care+_+ASPCA+Pet+Health+Insurance+_+gray+shorthair+resting+on+a+brown+leather+couch+-min.jpg",
       "owner_id": 2
   },
   {
@@ -311,12 +311,12 @@
   },
   {
       "name": "Mia",
-      "image": "https://www.dutch.com/cdn/shop/articles/shutterstock_777351166.jpg?v=1689032905",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Scottish Fold",
       "description": "Mia is a Scottish Fold cat with a playful and affectionate personality. Her folded ears and charming antics make her a favorite among cat lovers.",
       "gender": "Female",
+      "image": "https://www.dutch.com/cdn/shop/articles/shutterstock_777351166.jpg?v=1689032905",
       "owner_id": 2
   },
   {
@@ -331,12 +331,12 @@
   },
   {
       "name": "Lily",
-      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/Y9KYF9Gi-BVOsvaq1zSkOA/348s.jpg",
       "age": 1,
       "animal_type": "Cat",
       "breed": "Siberian",
       "description": "Lily is a Siberian cat with a thick triple coat that's perfect for colder climates. Her playful nature and affectionate demeanor warm the hearts of all who meet her.",
       "gender": "Female",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/Y9KYF9Gi-BVOsvaq1zSkOA/348s.jpg",
       "owner_id": 2
   },
   {
@@ -351,12 +351,12 @@
   },
   {
       "name": "Lucy",
-      "image": "https://i.pinimg.com/1200x/05/39/f6/0539f678c0ffae8b9d263e9b54055a98.jpg",
       "age": 3,
       "animal_type": "Cat",
       "breed": "Ragdoll",
       "description": "Lucy is a Ragdoll cat with stunning blue eyes and a gentle disposition. She's happiest when she's curled up on a soft blanket, enjoying a nap.",
       "gender": "Female",
+      "image": "https://i.pinimg.com/1200x/05/39/f6/0539f678c0ffae8b9d263e9b54055a98.jpg",
       "owner_id": 2
   },
   {
@@ -371,12 +371,12 @@
   },
   {
       "name": "Chloe",
-      "image": "https://media-be.chewy.com/wp-content/uploads/2015/08/22145406/bengal.jpg",
       "age": 2,
       "animal_type": "Cat",
       "breed": "Bengal",
       "description": "Chloe is a Bengal cat with striking leopard-like spots and a playful personality. She's always ready to pounce and explore her surroundings.",
       "gender": "Female",
+      "image": "https://media-be.chewy.com/wp-content/uploads/2015/08/22145406/bengal.jpg",
       "owner_id": 2
   }
 ]

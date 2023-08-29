@@ -18,3 +18,13 @@ class LikeSerializer(serializers.ModelSerializer):
     class Meta:
         model = Like
         fields = '__all__'
+
+class GetAllDogsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Post
+        fields = '__all__'
+
+class GetAllCatsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Post
+        fields = '__all__'
