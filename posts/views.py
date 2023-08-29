@@ -43,41 +43,6 @@ class GetAllDogsCatsViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
         return Response(serializer.data)
 
 
-# class CommentViewSet(viewsets.ModelViewSet):
-#     queryset = Comment.objects.all()
-#     serializer_class = CommentSerializer
-#     permission_classes = [CustomPermissions]
-
-#     @action(detail=False, methods=['PUT'])
-#     def update(self, request, pk=None):
-#         try:
-#             comment = Comment.objects.get(pk=pk)
-#         except Comment.DoesNotExist:
-#             return Response({"detail": "Comment not found"}, status=status.HTTP_404_NOT_FOUND)
-
-#         # if request.method == 'PUT':
-#         #     serializer = CommentSerializer(comment, data=request.data)
-#         #     if serializer.is_valid():
-#         #         serializer.save()
-#         #         return Response(serializer.data)
-#         #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-#         # elif request.method == 'DELETE':
-#         comment.delete()
-#         # return Response(status=status.HTTP_400_BAD_REQUEST)
-
-#         return Response({})
-
-#     def destroy(self, request, pk=None):
-#         try:
-#             comment = Comment.objects.get(pk=pk)
-#         except Comment.DoesNotExist:
-#             return Response({"detail": "Comment not found"}, status=status.HTTP_404_NOT_FOUND)
-
-#         comment.delete()
-#         return Response(status=status.HTTP_400_BAD_REQUEST)
-
-
 class CommentViewSet(viewsets.ModelViewSet):
     queryset = Comment.objects.all()
     serializer_class = CommentSerializer
