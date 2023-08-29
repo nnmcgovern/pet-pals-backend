@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +27,7 @@ SECRET_KEY = 'django-insecure-_u3kiw5k*gh=w8!lm4+_6q1k0b&tr-=)z$5cw^o*w7i2mpzopc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
@@ -78,14 +80,20 @@ WSGI_APPLICATION = 'pet_pals.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'pet_pals',
+#         'USER': 'pet_pals_admin',
+#         'PASSWORD': 'petpalsadminpass',
+#         'HOST': 'localhost'
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pet_pals',
-        'USER': 'pet_pals_admin',
-        'PASSWORD': 'petpalsadminpass',
-        'HOST': 'localhost'
-    }
+    'default': dj_database_url.config(
+        default=f'postgres://pet_pals_admin:petpalsadminpass@localhost/pet_pals'
+    )
 }
 
 
