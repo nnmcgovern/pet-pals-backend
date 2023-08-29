@@ -38,6 +38,8 @@ virtualenv = "==20.24.3"
 virtualenv-clone = "==0.5.7"
 virtualenvwrapper = "==4.8.4"
 wcwidth = "==0.2.6"
+gunicorn = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
