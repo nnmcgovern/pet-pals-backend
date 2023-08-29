@@ -17,7 +17,6 @@
       "breed": "Russian Blue",
       "description": "Leo is a sophisticated Russian Blue cat with gorgeous silver-blue fur. He enjoys lounging in sunlit spots and engaging in thoughtful conversations with his human companions.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -38,7 +37,6 @@
       "breed": "Himalayan",
       "description": "Mila is a stunning Himalayan cat with a luxurious long coat and striking blue eyes. Her calm demeanor and affectionate nature make her the perfect lap cat.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -59,7 +57,6 @@
       "breed": "Birman",
       "description": "Chloe is a playful and mischievous Birman kitten with striking blue eyes. She loves chasing feather toys and exploring every nook and cranny of her surroundings.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -80,7 +77,6 @@
       "breed": "Exotic Shorthair",
       "description": "Lily is an Exotic Shorthair cat with a sweet and easygoing personality. Her plush coat and round face make her irresistibly cute and huggable.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -101,7 +97,6 @@
       "breed": "Japanese Bobtail",
       "description": "Mochi is a curious and energetic Japanese Bobtail kitten. Her short, bobbed tail and playful antics are bound to bring smiles to your face.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -122,7 +117,6 @@
       "breed": "Manx",
       "description": "Felix is a playful and tailless Manx cat with a boundless curiosity. He's always on the lookout for new adventures and interesting things to pounce on.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -143,7 +137,6 @@
       "breed": "Sphynx",
       "description": "Ollie is a unique and affectionate Sphynx cat. Despite his lack of fur, he's always warm-hearted and loves cuddling up with his human companions.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -164,7 +157,6 @@
       "breed": "American Shorthair",
       "description": "Sam is a friendly and easygoing American Shorthair cat. He gets along with everyone, both humans and other pets, and enjoys lounging around the house.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -185,7 +177,6 @@
       "breed": "Turkish Van",
       "description": "Toby is an adventurous and playful Turkish Van kitten. With his love for water and mischievous spirit, he's a constant source of entertainment.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -206,7 +197,6 @@
       "breed": "Scottish Fold",
       "description": "Charlie is a Scottish Fold cat with a distinctive folded ear that adds to his charm. He's a laid-back and easy-to-please feline companion.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -227,7 +217,6 @@
       "breed": "Maine Coon",
       "description": "Leo is a majestic Maine Coon cat with a thick and luxurious coat. Despite his large size, he's a gentle giant who loves to cuddle.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -248,7 +237,6 @@
       "breed": "Siamese",
       "description": "Milo is a Siamese cat with striking blue eyes and a vocal personality. He's always ready to engage in conversations and share his thoughts.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -269,7 +257,6 @@
       "breed": "Ragdoll",
       "description": "Oliver is a Ragdoll cat with soulful blue eyes and a gentle temperament. He enjoys lounging in his human's lap and getting chin scratches.",
       "gender": "Male",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -290,7 +277,6 @@
       "breed": "Persian",
       "description": "Luna is a regal Persian cat with a luxurious coat that requires extra care. She's a quiet and elegant presence in any room she enters.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -311,7 +297,6 @@
       "breed": "British Shorthair",
       "description": "Zoe is a British Shorthair cat with a plush and dense coat. Her round face and calm disposition make her a picture-perfect lap companion.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -332,7 +317,6 @@
       "breed": "Scottish Fold",
       "description": "Mia is a Scottish Fold cat with a playful and affectionate personality. Her folded ears and charming antics make her a favorite among cat lovers.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -353,7 +337,6 @@
       "breed": "Siberian",
       "description": "Lily is a Siberian cat with a thick triple coat that's perfect for colder climates. Her playful nature and affectionate demeanor warm the hearts of all who meet her.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -374,7 +357,6 @@
       "breed": "Ragdoll",
       "description": "Lucy is a Ragdoll cat with stunning blue eyes and a gentle disposition. She's happiest when she's curled up on a soft blanket, enjoying a nap.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   },
   {
@@ -395,7 +377,6 @@
       "breed": "Bengal",
       "description": "Chloe is a Bengal cat with striking leopard-like spots and a playful personality. She's always ready to pounce and explore her surroundings.",
       "gender": "Female",
-      "image": "",
       "owner_id": 2
   }
 ]
