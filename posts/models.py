@@ -1,16 +1,19 @@
 from django.db import models
+# from users.models import User
+from django.contrib.auth.models import User
 import datetime
 
 
 class Post(models.Model):
     name = models.CharField()
-    # image = models.CharField()
+    image = models.CharField()
     age = models.IntegerField()
     animal_type = models.CharField()
     breed = models.CharField()
     description = models.CharField()
     gender = models.CharField()
-    # owner_id = models.IntegerField()
+    owner_id = models.ForeignKey(
+        User, on_delete=models.CASCADE)
     created_at = models.DateField(default=datetime.date.today)
 
     def __str__(self):

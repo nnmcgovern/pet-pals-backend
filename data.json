@@ -5,7 +5,9 @@
       "animal_type": "Dog",
       "breed": "Australian Shepherd",
       "description": "Ruby is a lively and intelligent Australian Shepherd with a striking merle coat. She loves playing fetch and going on long hikes.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/australian-shepherd/sadie.jpg",
+      "owner_id": 2
   },
   {
       "name": "Leo",
@@ -13,7 +15,9 @@
       "animal_type": "Cat",
       "breed": "Russian Blue",
       "description": "Leo is a sophisticated Russian Blue cat with gorgeous silver-blue fur. He enjoys lounging in sunlit spots and engaging in thoughtful conversations with his human companions.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Cooper",
@@ -21,7 +25,9 @@
       "animal_type": "Dog",
       "breed": "Corgi",
       "description": "Meet Cooper, a playful and adorable Corgi puppy. With his short legs and big personality, he's always the center of attention wherever he goes.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/corgi-cardigan/n02113186_9807.jpg",
+      "owner_id": 2
   },
   {
       "name": "Mila",
@@ -29,7 +35,9 @@
       "animal_type": "Cat",
       "breed": "Himalayan",
       "description": "Mila is a stunning Himalayan cat with a luxurious long coat and striking blue eyes. Her calm demeanor and affectionate nature make her the perfect lap cat.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Jackson",
@@ -37,7 +45,9 @@
       "animal_type": "Dog",
       "breed": "Bulldog",
       "description": "Jackson is a gentle Bulldog with a heart of gold. Despite his tough appearance, he's a true softie who adores belly rubs and snuggling on the couch.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/bulldog-english/mami.jpg",
+      "owner_id": 2
   },
   {
       "name": "Chloe",
@@ -45,7 +55,9 @@
       "animal_type": "Cat",
       "breed": "Birman",
       "description": "Chloe is a playful and mischievous Birman kitten with striking blue eyes. She loves chasing feather toys and exploring every nook and cranny of her surroundings.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Maximus",
@@ -53,7 +65,9 @@
       "animal_type": "Dog",
       "breed": "Rottweiler",
       "description": "Maximus is a loyal and protective Rottweiler with a heart of gold. He's excellent with kids and is always ready to play a game of tug-of-war.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/rottweiler/n02106550_5754.jpg",
+      "owner_id": 2
   },
   {
       "name": "Lily",
@@ -61,7 +75,9 @@
       "animal_type": "Cat",
       "breed": "Exotic Shorthair",
       "description": "Lily is an Exotic Shorthair cat with a sweet and easygoing personality. Her plush coat and round face make her irresistibly cute and huggable.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Duke",
@@ -69,7 +85,9 @@
       "animal_type": "Dog",
       "breed": "Great Dane",
       "description": "Duke is a majestic Great Dane with a gentle disposition. Despite his massive size, he thinks he's a lap dog and loves curling up beside his family.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/dane-great/n02109047_19775.jpg",
+      "owner_id": 2
   },
   {
       "name": "Mochi",
@@ -77,7 +95,9 @@
       "animal_type": "Cat",
       "breed": "Japanese Bobtail",
       "description": "Mochi is a curious and energetic Japanese Bobtail kitten. Her short, bobbed tail and playful antics are bound to bring smiles to your face.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Bailey",
@@ -85,7 +105,9 @@
       "animal_type": "Dog",
       "breed": "Shetland Sheepdog",
       "description": "Bailey is a loyal and intelligent Shetland Sheepdog with a beautiful sable coat. She excels in agility training and loves learning new tricks.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_18782.jpg",
+      "owner_id": 2
   },
   {
       "name": "Felix",
@@ -93,7 +115,9 @@
       "animal_type": "Cat",
       "breed": "Manx",
       "description": "Felix is a playful and tailless Manx cat with a boundless curiosity. He's always on the lookout for new adventures and interesting things to pounce on.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Sadie",
@@ -101,7 +125,9 @@
       "animal_type": "Dog",
       "breed": "Siberian Husky",
       "description": "Sadie is an energetic and independent Siberian Husky with striking blue eyes. She loves outdoor activities and thrives in colder climates.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/eskimo/n02109961_6613.jpg",
+      "owner_id": 2
   },
   {
       "name": "Ollie",
@@ -109,7 +135,9 @@
       "animal_type": "Cat",
       "breed": "Sphynx",
       "description": "Ollie is a unique and affectionate Sphynx cat. Despite his lack of fur, he's always warm-hearted and loves cuddling up with his human companions.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Rosie",
@@ -117,7 +145,9 @@
       "animal_type": "Dog",
       "breed": "Pug",
       "description": "Rosie is a charming Pug with a delightful personality. Her wrinkled face and curly tail are matched only by her love for belly rubs and treats.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/pug/n02110958_1975.jpg",
+      "owner_id": 2
   },
   {
       "name": "Sam",
@@ -125,7 +155,9 @@
       "animal_type": "Cat",
       "breed": "American Shorthair",
       "description": "Sam is a friendly and easygoing American Shorthair cat. He gets along with everyone, both humans and other pets, and enjoys lounging around the house.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Maggie",
@@ -133,7 +165,9 @@
       "animal_type": "Dog",
       "breed": "Cocker Spaniel",
       "description": "Maggie is a joyful and affectionate Cocker Spaniel. Her expressive eyes and wagging tail are sure to brighten even the gloomiest days.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/spaniel-cocker/n02102318_11890.jpg",
+      "owner_id": 2
   },
   {
       "name": "Toby",
@@ -141,7 +175,9 @@
       "animal_type": "Cat",
       "breed": "Turkish Van",
       "description": "Toby is an adventurous and playful Turkish Van kitten. With his love for water and mischievous spirit, he's a constant source of entertainment.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Sophie",
@@ -149,7 +185,9 @@
       "animal_type": "Dog",
       "breed": "Golden Retriever",
       "description": "Sophie is a gentle and affectionate Golden Retriever with a heart of gold. Her love for people and her friendly nature make her an ideal family pet.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/retriever-golden/n02099601_5709.jpg",
+      "owner_id": 2
   },
   {
       "name": "Charlie",
@@ -157,7 +195,9 @@
       "animal_type": "Cat",
       "breed": "Scottish Fold",
       "description": "Charlie is a Scottish Fold cat with a distinctive folded ear that adds to his charm. He's a laid-back and easy-to-please feline companion.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Lola",
@@ -165,7 +205,9 @@
       "animal_type": "Dog",
       "breed": "Dachshund",
       "description": "Lola is a spunky and lively Dachshund with a big personality. Her short legs don't stop her from exploring and keeping up with her human friends.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/dachshund/dachshund_4.jpg",
+      "owner_id": 2
   },
   {
       "name": "Leo",
@@ -173,7 +215,9 @@
       "animal_type": "Cat",
       "breed": "Maine Coon",
       "description": "Leo is a majestic Maine Coon cat with a thick and luxurious coat. Despite his large size, he's a gentle giant who loves to cuddle.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Bella",
@@ -181,7 +225,9 @@
       "animal_type": "Dog",
       "breed": "French Bulldog",
       "description": "Bella is an adorable French Bulldog with expressive ears and a loving personality. She's happiest when she's in the company of her favorite humans.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/bulldog-french/n02108915_4901.jpg",
+      "owner_id": 2
   },
   {
       "name": "Milo",
@@ -189,7 +235,9 @@
       "animal_type": "Cat",
       "breed": "Siamese",
       "description": "Milo is a Siamese cat with striking blue eyes and a vocal personality. He's always ready to engage in conversations and share his thoughts.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Bailey",
@@ -197,7 +245,9 @@
       "animal_type": "Dog",
       "breed": "Australian Cattle Dog",
       "description": "Bailey is an intelligent and energetic Australian Cattle Dog. With her boundless energy and agility, she's a great partner for outdoor activities.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://images.dog.ceo/breeds/cattledog-australian/IMG_2432.jpg",
+      "owner_id": 2
   },
   {
       "name": "Oliver",
@@ -205,7 +255,9 @@
       "animal_type": "Cat",
       "breed": "Ragdoll",
       "description": "Oliver is a Ragdoll cat with soulful blue eyes and a gentle temperament. He enjoys lounging in his human's lap and getting chin scratches.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Rocky",
@@ -213,7 +265,9 @@
       "animal_type": "Dog",
       "breed": "Boxer",
       "description": "Rocky is a fun-loving and enthusiastic Boxer. His boundless energy and signature \"wiggle butt\" make him a favorite among his human friends.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/boxer/IMG_0002.jpg",
+      "owner_id": 2
   },
   {
       "name": "Luna",
@@ -221,7 +275,9 @@
       "animal_type": "Cat",
       "breed": "Persian",
       "description": "Luna is a regal Persian cat with a luxurious coat that requires extra care. She's a quiet and elegant presence in any room she enters.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Bentley",
@@ -229,7 +285,9 @@
       "animal_type": "Dog",
       "breed": "Poodle",
       "description": "Bentley is an elegant and intelligent Poodle. With his hypoallergenic coat and friendly demeanor, he's a wonderful companion for those with allergies.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/poodle-miniature/n02113712_4526.jpg",
+      "owner_id": 2
   },
   {
       "name": "Zoe",
@@ -237,7 +295,9 @@
       "animal_type": "Cat",
       "breed": "British Shorthair",
       "description": "Zoe is a British Shorthair cat with a plush and dense coat. Her round face and calm disposition make her a picture-perfect lap companion.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Charlie",
@@ -245,7 +305,9 @@
       "animal_type": "Dog",
       "breed": "Labrador Retriever",
       "description": "Charlie is a Labrador Retriever known for his boundless enthusiasm and friendly nature. He's always up for a game of fetch or a swim in the lake.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/labrador/dog2.jpg",
+      "owner_id": 2
   },
   {
       "name": "Mia",
@@ -253,7 +315,9 @@
       "animal_type": "Cat",
       "breed": "Scottish Fold",
       "description": "Mia is a Scottish Fold cat with a playful and affectionate personality. Her folded ears and charming antics make her a favorite among cat lovers.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Oscar",
@@ -261,7 +325,9 @@
       "animal_type": "Dog",
       "breed": "Beagle",
       "description": "Oscar is a cheerful and curious Beagle with a keen sense of smell. He's always on the hunt for new scents and exciting adventures.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/beagle/n02088364_11509.jpg",
+      "owner_id": 2
   },
   {
       "name": "Lily",
@@ -269,7 +335,9 @@
       "animal_type": "Cat",
       "breed": "Siberian",
       "description": "Lily is a Siberian cat with a thick triple coat that's perfect for colder climates. Her playful nature and affectionate demeanor warm the hearts of all who meet her.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Tucker",
@@ -277,7 +345,9 @@
       "animal_type": "Dog",
       "breed": "Border Collie",
       "description": "Tucker is a highly intelligent and energetic Border Collie. He excels in dog sports and is always eager to learn new tricks and commands.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://images.dog.ceo/breeds/collie-border/n02106166_416.jpg",
+      "owner_id": 2
   },
   {
       "name": "Lucy",
@@ -285,7 +355,9 @@
       "animal_type": "Cat",
       "breed": "Ragdoll",
       "description": "Lucy is a Ragdoll cat with stunning blue eyes and a gentle disposition. She's happiest when she's curled up on a soft blanket, enjoying a nap.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   },
   {
       "name": "Teddy",
@@ -293,7 +365,9 @@
       "animal_type": "Dog",
       "breed": "Cavalier King Charles Spaniel",
       "description": "Teddy is a lovable and affectionate Cavalier King Charles Spaniel. His large, expressive eyes and wagging tail make him impossible to resist.",
-      "gender": "Male"
+      "gender": "Male",
+      "image": "https://geniusvets.s3.amazonaws.com/gv-dog-breeds/cavalier-king-charles-spaniel-1.jpg",
+      "owner_id": 2
   },
   {
       "name": "Chloe",
@@ -301,6 +375,8 @@
       "animal_type": "Cat",
       "breed": "Bengal",
       "description": "Chloe is a Bengal cat with striking leopard-like spots and a playful personality. She's always ready to pounce and explore her surroundings.",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "",
+      "owner_id": 2
   }
 ]
