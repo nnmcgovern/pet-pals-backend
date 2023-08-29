@@ -9,7 +9,7 @@ from .permissions import CustomPermissions
 
 
 class PostViewSet(viewsets.ModelViewSet):
-    queryset = Post.objects.all()
+    queryset = Post.objects.all().prefetch_related('comments')
     serializer_class = PostSerializer
 
 

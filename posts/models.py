@@ -24,7 +24,7 @@ class Comment(models.Model):
     user = models.ForeignKey(
         User, on_delete=models.CASCADE)
     post = models.ForeignKey(
-        Post, on_delete=models.CASCADE)
+        Post, related_name='comments', on_delete=models.CASCADE)
     updated_at = models.DateField(default=datetime.date.today)
     created_at = models.DateField(default=datetime.date.today)
 
