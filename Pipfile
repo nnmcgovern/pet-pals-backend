@@ -43,6 +43,7 @@ dj-database-url = "*"
 django-import-export = "*"
 psycopg2 = "*"
 whitenoise = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
