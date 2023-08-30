@@ -1,7 +1,7 @@
 from rest_framework import viewsets, mixins
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from .serializers import PostSerializer, CommentSerializer, LikeSerializer
+from .serializers import PostSerializer, CommentSerializer, LikeSerializer, AllCommentsSerializer
 from .models import Post, Comment, Like
 from rest_framework.response import Response
 from rest_framework import status
@@ -55,6 +55,11 @@ class CommentViewSet(viewsets.ModelViewSet):
 
         comment.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+class AllCommentsViewSet(viewsets.ModelViewSet):
+    queryset = Comment.objects.all()
+    serializer_class = AllCommentsSerializer
 
 
 class LikeViewSet(viewsets.ModelViewSet):
