@@ -21,7 +21,6 @@ def login(request):
     return Response({
         'token': token.key,
         'user': serializer.data,
-
     })
 
 
