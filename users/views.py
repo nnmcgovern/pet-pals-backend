@@ -55,3 +55,4 @@ def get_token(request):
     return Response({
         'message': '토큰이 유효합니다.'
     })
+
