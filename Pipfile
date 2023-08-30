@@ -42,6 +42,7 @@ gunicorn = "*"
 dj-database-url = "*"
 django-import-export = "*"
 psycopg2 = "*"
+whitenoise = "*"
 
 [dev-packages]
 
